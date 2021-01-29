@@ -1,0 +1,42 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .header{
+        margin-top: 5px;
+        height: 80px;
+        display: block;
+    }
+    .categoria_lista{
+        padding-left: 10px;
+    }
+    .carrusel_fotos{
+        margin: 5px;
+        display: block;
+        height: 300px;
+    }
+    .carrusel_contenedor{
+        display: block;
+        margin: 15px 0%;
+        white-space: nowrap;
+    }
+    .carrusel_item{
+        display: inline-block;
+    }
+
+    .carrusel_fotos{
+        padding-left: 5px;
+    }
+}
+
+/* Small davices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets. 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
